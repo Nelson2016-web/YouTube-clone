@@ -179,4 +179,31 @@
   border-radius: 22px;
 }
 
+@media (max-width: 750px) {
+  .middle-section {
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 100%;
+  }
+
+  .right-section {
+    display: flex;
+    width: auto;
+    gap: 10px;
+    margin-right: 10px;
+  }
+
+  .upload-icon-container {
+    display: none;
+  }
+
+  .youtube-apps-icon-container {
+    display: none;
+  }
+
+  .voice-search-button {
+    display: none;
+  }
+}
+
 
