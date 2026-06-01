@@ -1,0 +1,349 @@
+html {
+}
+
+.Uber-button {
+  background-color: black;
+  color: white;
+  padding: 9px 15px;
+  border: none ;
+  cursor: pointer;
+  transition:opacity 0.25s ;
+}
+
+.Uber-button:hover {
+  opacity: 0.75;
+}
+
+.Add-button {
+  background-color: rgb(225,216,20);
+  padding: 8px 35px;
+  font-size: 12px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.15s ;
+}
+
+.Add-button:hover {
+  background-color: rgb(255,216,20);
+}
+
+.sign-button {
+  background-color: rgb(46,164,79);
+  color: white;
+  padding: 8.7px 20px;
+  border: none;
+  font-size: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: box-shadow 0.25s;
+}
+
+.sign-button:hover {
+  box-shadow: 0px 6px 10px rgba(0,0,0,0.17);
+}
+
+.Bootstrap-button {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: 4px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.Bootstrap-button:hover {
+  background-color: rgb(84, 45, 151);
+}
+
+.Download-button {
+  background-color: white;
+  color: rgb(108,117,125);
+  padding: 9px 18px;
+  font-size: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px;
+  border-color: rgb(108,117,130);
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.Download-button:hover {
+  background-color: rgb(108,117,130);
+  color: white;
+}
+
+.LinkedIn-button{
+  background-color: rgb(10,102,194);
+  color: white;
+  padding: 8px 13px;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  margin-right: 5px;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: background-color 0.16s;
+}
+
+.LinkedIn-button:hover {
+  background-color: rgb(32, 77, 122);
+}
+
+.Save-button{
+  background-color: white;
+  color: rgb(10,102,194);
+  border-color: rgb(10,102,194);
+  padding: 7px 14px;
+  font-size: 12px;
+  font-weight: bold;
+  border-width: 1px;
+  border-style:solid ;
+  border-radius: 14px;
+  transition:background-color 0.2s, border-width 0.2s;
+}
+
+.Save-button:hover {
+  background-color: rgb(213, 232, 252);
+  border-width: 1.5px;
+}
+
+.Save-button:active {
+  box-shadow: 4px 5px 6px rgba(0,0,0,0.22);
+}
+
+.Back-link {
+  color: rgb(0,113,133);
+  transition: color 0.1s  ;
+}
+
+.Back-link:hover {
+  color: rgb(138, 52, 52);
+}
+
+.stock-css {
+  color: rgb(204, 207, 17);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Cart-button {
+  background-color: rgb(225,216,20);
+  padding: 6px 26px;
+  font-size: 12px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.15s, opacity 0.15s ;
+}
+
+.Cart-button:hover {
+  background-color: rgb(255,216,20);
+}
+
+.Cart-button:active {
+  opacity: 0.5;
+}
+
+.Buy-button {
+  background-color: rgb(255,164,28);
+  padding: 6px 36px;
+  font-size: 12px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+
+.Buy-button:hover {
+  background-color: rgb(225, 135, 0);
+}
+
+.Buy-button:active {
+  opacity: 0.5;
+}
+
+.pagination-wrapper {
+  background: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 6px;
+}
+
+/* BACK & NEXT BUTTONS */
+.nav-btn {
+  padding: 12px 20px;
+  border: 2px solid #999;
+  background: #eee;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.nav-btn:hover {
+  background: #ddd;
+}
+
+/* PAGE NUMBERS */
+.numbers a {
+  margin: 0 8px;
+  font-size: 20px;
+  color: purple;
+  text-decoration: underline;
+}
+
+.numbers a:hover {
+  color: darkviolet;
+}
+
+.Shadow-button {
+  background-color: rgb(46,164,79);
+  color: white;
+  padding: 6px 18px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 3px 3px 0.2px rgba(0,0,0,0.2);
+  
+}
+
+.Shadow-button:active {
+  transform: translateX(1px) translateY(1px);
+  box-shadow: 0px 0px 0.2px rgba(0,0,0,0.2);
+
+}
+
+.Stretch-button {
+  background-color: rgb(46,164,79);
+  color: white;
+  --padding-1: 6px 18px;
+  --padding-2: 12px 36px;
+  padding: var(--padding-1);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.Stretch-button:active {
+  padding: var(--padding-2);
+}
+
+.One-button {
+
+}
+
+.Two-button {
+
+}
+
+.Three-button {
+  
+}
+
+.Baby-Bugatti{
+  width: 200px;
+  border-radius: 100px;
+  height: 200px;
+  }
+
+.Search-bar {
+  padding: 12px 16px ;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 1.5px solid #999;
+  cursor: pointer;
+  margin-left: 0px;
+}
+
+
+.Search-Google {
+  font-size: 15px;
+  width: 200px;
+  padding-left: 15px;
+  padding-right: 160px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 1px 1px 9px rgba(0,0,0,0.25);
+}
+
+.Email-text {
+  font-size: Arial;
+  color: rgb(100,100,100);
+  margin-top: 0px;
+  margin-bottom: 6px;
+  font-size: 17px;
+}
+
+.LinkedIn-signup {
+ font-size: 16px;
+ padding: 7px 7px;
+ width: 400px;
+ border-radius: 5px;
+ border-style: solid;
+ border-width: 2px;
+ border-color: rgb(100,100,100);
+ margin-bottom: 20px;
+}
+
+.Agree-Join{
+  background-color: rgb(10,102,194);
+  border: none;
+  width: 400px;
+  color: white;
+  font-size: 20px;
+  padding: 16px 16px;
+  border-radius: 30px;
+}
+
+.disclaimer {
+  font-size: Arial;
+  color: rgb(100,100,100);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.BB {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 5px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.What {
+  font-size: 18px;
+  width: 300px;
+  border: none;
+  vertical-align: middle;
+}
+
+.Tweet {
+  color: white;
+  background-color: rgb(29,155,240);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  vertical-align: middle;
+  
+}
+
+.red-square {
+  width: 200px;
+  background-color: red;
+}
+
