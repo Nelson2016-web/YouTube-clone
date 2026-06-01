@@ -56,6 +56,36 @@
         }
       }
 
+      @media (max-width: 750px) {
+  /* 1 column on phones */
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+
+
+  /* Fix header */
+  .right-section {
+    display: none;
+  }
+
+  .middle-section {
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 100%;
+  }
+
+  /* Make thumbnails full width */
+  .thumbnail {
+    width: 100%;
+  }
+
+  /* Fix main content area */
+  main {
+    margin-left: 0px;
+    padding: 10px;
+  }
+}
+
       .video-time {
         font-size: 12px;
         font-weight: 500;
